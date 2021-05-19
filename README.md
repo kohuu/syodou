@@ -1,0 +1,7 @@
+# syodouginconfig.yml
+
+sitemap:
+    path: sitemap.xml
+    template: ./sitemap_template.xml
+    rel: false
+ 
