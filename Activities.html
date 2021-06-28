@@ -7,6 +7,23 @@
   <title>　Syodou +gin / Activities　</title>
 
      <style type="text/css"> 
+
+    
+
+
+    @media screen and (max-width: 800px) {
+        .parent {
+          flex-wrap: wrap;
+        }
+      }
+
+    @media screen and (max-width: 400px) {
+        .parent {
+          display: block;
+        }
+      }
+
+ 
           #WHITE { background-color: #FFFFFF; }
           
           body { background-color:#EEFFFF; }  /*薄い水色*/
@@ -51,19 +68,10 @@
 <style type="text/css"> 
 
 
-.item{
-    width  :  300px;
-    margin-bottom:20px;　　/* 画面が縮小されタテ並びになった時。写真と写真（上下）の幅サイズ*/ 
-  } 
-
 .item_box{
     display  :  flex  ;
     flex-wrap : wrap  ;
-  }
-
-.item_box{
-    display  :  flex  ;
-    flex-wrap : wrap  ;
+ 
     justify-content  :  space-around ;   /* 写真と写真の間 centerと指示すると隙間ゼロ*/ 
   }
 
@@ -101,7 +109,7 @@
 
 <center><img src="https://t.pimg.jp/002/905/291/1/2905291.jpg"
                 
-                 alt="ウサギさんがお習字"  width=50px height=50px">
+                 alt="ウサギさんがお習字"  width=60px height=60px">
    </center>
  
   <br>
