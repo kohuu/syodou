@@ -1,13 +1,23 @@
 <html>
 
-<head>　　
+head>　　
         <meta http-equiv="content-type" charset="utf-8">
         <title>　Syodou +gin / About　</title>
-</head>
- 
+
      <style type="text/css"> 
 
 
+      @media screen and (max-width: 800px) {
+          .parent {
+             flex-wrap: wrap;
+          }
+        }
+
+     @media screen and (max-width: 400px) {
+          .parent {
+            display: block;
+          }
+       }
 
           #WHITE { background-color: #FFFFFF; }
           
@@ -20,6 +30,8 @@
 　　　　　　　　　　}
 
       </style>
+
+</head>
 
  　　　　
  
@@ -34,8 +46,7 @@
 <p style="padding-top:5px"> </p>
 <style type="text/css"> 
 .item{
-    width  :  150px;
-    margin-bottom:20px;　　/* 画面が縮小されタテ並びになった時。写真と写真（上下）の幅サイズ*/ 
+    
   } 
 
 
@@ -46,6 +57,7 @@
   }
 
 .item img{
+    margin-bottom:20px;　　/* 画面が縮小されタテ並びになった時。写真と写真（上下）の幅サイズ*/ 
     border-radius:0%  ; /*角に☆％丸みをつける指示*/
   }
 
